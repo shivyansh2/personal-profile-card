@@ -1,0 +1,125 @@
+body {
+  display: flex;
+  justify-self: center;
+  padding-top: 191px;
+  font-family: "Noto Sans", sans-serif;
+  height: 752px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom, #f9fafb, #d2d6db);
+}
+@media (max-width: 768px) {
+  body {
+    height: 796px;
+  }
+}
+@media (min-width: 768px) and (max-width:1000px) {
+  body {
+    height: 1008px;
+  }
+  .user-details .designation {
+    margin: 0px 0px;
+}
+}
+  
+
+* {
+  box-sizing: border-box;
+}
+.profile-card {
+  background-color: rgb(255, 255, 255);
+  width: 340px;
+  height: auto;
+  padding: 24px 16px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  border: 1px solid #ededed;
+  box-shadow: 2px 2px 1px rgba(69, 69, 69, 0.15);
+}
+
+.profile-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  text-align: center;
+}
+.ProfilePic {
+  width: 64px;
+  height: 64px;
+  border-radius: 32px;
+}
+.user-details {
+  display: block;
+}
+.user-details .name {
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 28px;
+  font-weight: 500;
+  color: rgb(23 23 23);
+  padding: 0px;
+  margin-top: 2px;
+  margin-bottom:2px;
+  
+}
+.user-details .designation {
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20px;
+  font-weight: 400;
+  color: rgb(82 82 82);
+  padding: 0px;
+  margin: 0px;
+}
+.about-section {
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  font-weight: 400;
+  color: rgb(82 82 82);
+  padding: 0px;
+  margin: 0px;
+}
+.button-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-button {
+  width: 100%;
+  padding: 10px 16px;
+  border-radius: 4pxs;
+  background-color: rgb(67, 56, 202);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration-line: none;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  font-weight: 500;
+  margin-bottom: 24px;
+  border-radius: 4px;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-top: 7px;
+  align-items: center;
+  margin-bottom: 7px;
+}
+.social i.fa-brands::before {
+  color: rgb(67, 56, 202);
+  width: 40px;
+  height: 40px;
+  margin: 8px;
+}
